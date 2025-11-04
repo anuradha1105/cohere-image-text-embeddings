@@ -6,9 +6,9 @@ This project demonstrates **multimodal embeddings** using Cohere’s `embed-v4.0
 Use Cohere’s `embed-v4.0` model to:
 - Create embeddings for two SJSU images.
 - Create embeddings for text queries:
-- “person with tape and cap”
-- “cart with single tire”
-- Compare image↔image and query↔image pairs using **cosine similarity**.
+   >- person with tape and cap
+   >- cart with single tire
+- Compare image: image and query : image pairs using **cosine similarity**.
 
 ## 🧩 Files in this repository
 cohereembeddingreleasewithsearch.py - Main script 
