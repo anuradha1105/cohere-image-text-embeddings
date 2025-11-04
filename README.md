@@ -50,7 +50,7 @@ Below is the preview of `similarities.csv` displayed using Pandas:
 ---
 
 ## ⚙️ How to Run
-1. Install dependencies:
+Install dependencies:
    ```bash
    pip install cohere requests numpy pandas
 
