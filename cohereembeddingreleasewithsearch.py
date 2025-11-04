@@ -19,7 +19,6 @@ Usage (Colab):
   os.environ["COHERE_API_KEY"] = "your_key_here"
   !python cohereembeddingreleasewithsearch.py
 
-Optional: To change images or queries, edit the DEFAULT_* constants below or call run(...).
 
 """
 
@@ -42,9 +41,8 @@ except Exception as e:
         "Cohere SDK not found. Install with `pip install cohere` and re-run."
     )
 
-# ---------------------- DEFAULT ASSIGNMENT INPUTS ----------------------
+# ---------------------- ASSIGNMENT INPUTS ----------------------
 
-# You can replace these with local file paths if preferred.
 DEFAULT_IMAGES: Dict[str, str] = {
     "ADV_college-of-science_2.jpg": "https://www.sjsu.edu/_images/people/ADV_college-of-science_2.jpg",
     "ADV_college-of-social-sciences_2.jpg": "https://www.sjsu.edu/_images/people/ADV_college-of-social-sciences_2.jpg",
@@ -57,8 +55,8 @@ DEFAULT_QUERIES: List[str] = [
 
 # Cohere embedding configuration
 MODEL_NAME = "embed-v4.0"
-OUTPUT_DIM = 512     # You may set to 1536 for full dimension, but 512 is lighter
-TIMEOUT = 45         # seconds for HTTP fetch
+OUTPUT_DIM = 512     
+TIMEOUT = 45        
 
 
 # --------------------------- CORE HELPERS ------------------------------
