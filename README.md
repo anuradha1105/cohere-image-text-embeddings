@@ -11,11 +11,9 @@ Use Cohere’s `embed-v4.0` model to:
 - Compare image↔image and query↔image pairs using **cosine similarity**.
 
 ## 🧩 Files in this repository
-| File | Description |
-|------|--------------|
-| `cohereembeddingreleasewithsearch.py` - Main script 
-| `similarities.csv` - Output table containing cosine similarity values 
-| `cohrere-image-text-colab.ipynb` | Google Colab notebook with code run|
+cohereembeddingreleasewithsearch.py - Main script 
+similarities.csv - Output table containing cosine similarity values 
+cohrere-image-text-colab.ipynb - Google Colab notebook with code run
 
 ---
 
