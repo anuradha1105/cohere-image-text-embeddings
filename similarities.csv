@@ -1,0 +1,5 @@
+query,image_name,cosine_similarity
+person with tape and cap,ADV_college-of-science_2.jpg,0.17825
+person with tape and cap,ADV_college-of-social-sciences_2.jpg,0.06089
+cart with single tire,ADV_college-of-science_2.jpg,-0.004774
+cart with single tire,ADV_college-of-social-sciences_2.jpg,0.234427
