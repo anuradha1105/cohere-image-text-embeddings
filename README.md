@@ -12,7 +12,9 @@ Use Cohere’s `embed-v4.0` model to:
 
 ## 🧩 Files in this repository
 cohereembeddingreleasewithsearch.py - Main script 
+
 similarities.csv - Output table containing cosine similarity values 
+
 cohrere-image-text-colab.ipynb - Google Colab notebook with code run
 
 ---
